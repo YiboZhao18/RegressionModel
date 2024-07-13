@@ -1,4 +1,4 @@
-# Freelancer Project: Assess sensitivity of different biological age accerlations in response to smoking status
+# Freelancer Project: Assess sensitivity of different biological age accerlation estimates in response to smoking status
 ## Design a comprehensive analysis pipeline for client involving multivariate linear regression
 
 Main Language: R
@@ -8,7 +8,7 @@ Main Language: R
 - Main Contents:
   - Cohort Characterisation: Key variables description (Table + Graph)
   - Linear Regression Model Fit
-    - Basic Model: Age_acc ~ smoking + age + gender
-    - Extended Model: Age_acc ~ smoking + age + gender + other_covariates
-  - Interaction Analysis: to determine if the effect of smoking on biological age acc differs by cronological age and gender
-  - Sensitivity Analysis using alternative smoking measures (for current smokers only)
+    - Basic Model: Age_acc ~ smoking + age + gender (Model 1)
+    - Extended Model: Age_acc ~ smoking + age + gender + other_covariates (Model 2)
+  - Interaction Analysis: to determine if the effect of smoking on biological age acc differs by chronological age and gender (Model 3 & 4)
+  - Sensitivity Analysis using alternative smoking measures (Model 5-6)
